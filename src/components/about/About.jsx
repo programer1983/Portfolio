@@ -1,5 +1,6 @@
 import "./about.css"
 import Award from "../../img/award.png"
+import Work from "./../../img/work.jpg"
 
 const About = () => {
     return (
@@ -8,7 +9,7 @@ const About = () => {
                 <div className="a-card bg"></div>
                 <div className="a-card">
                     <img 
-                        src="https://futurebeyondtechnology.com/wp-content/uploads/2019/08/independent-Computer-Programmer.jpg" 
+                        src={Work}
                         alt="" 
                         className="a-img"
                     />
