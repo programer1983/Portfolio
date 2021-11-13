@@ -4,16 +4,14 @@ import ProductList from "./components/productList/ProductList";
 import Contact from "./components/contact/Contact";
 import Toggle from "./components/toggle/Toggle";
 
-
-
 const App = () => {
   return (
-    <div className="App">
-      <Toggle />
-      <Intro />
-      <About  />
-      <ProductList />
-      <Contact />
+    <div style={{backgroundColor: "red", color: "white"}}>
+        <Toggle />
+        <Intro />
+        <About  />
+        <ProductList />
+        <Contact />
     </div>
   );
 }
