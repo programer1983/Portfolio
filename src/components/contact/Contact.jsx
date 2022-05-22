@@ -42,22 +42,21 @@ const Contact = () => {
                     <div className="c-info">
                         <div className="c-info-item">
                             <img src={Phone} alt="" className="c-icon"/>
-                            +1 1234 556 75
+                            +38 096 445 19 20
                         </div>
                         <div className="c-info-item">
                             <img src={Email} alt="" className="c-icon"/>
-                            contact@dimon.dev
+                            mitucha1983@gmail.com
                         </div>
                         <div className="c-info-item">
                             <img src={Address} alt="" className="c-icon"/>
-                            245 King Street, Touterie Victoria 8520 Australia
+                            Ukraine
                         </div>
                     </div>
                 </div>
                 <div className="c-right">
                     <p className="c-desc">
-                        <b>What's your story?</b> Get in touch. Always  
-                        freelancing if the right project comes along.
+                        <b>Get in touch.</b> 
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Name" name="user_name" />

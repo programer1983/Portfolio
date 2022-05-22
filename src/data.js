@@ -1,32 +1,32 @@
 export const products = [
     {
         id: 1,
-        img: "https://i.ibb.co/4TD6cYF/1.jpg",
+        img: "./../assets/foto1.png",
         link: "http://lama.dev",
     },
     {
         id: 2,
-        img: "https://i.ibb.co/6cKRBfN/2.jpg",
+        img: "./../assets/foto2.png",
         link: "http://lama.dev",
     },
     {
         id: 3,
-        img: "https://i.ibb.co/3CtQ8Gp/3.jpg",
+        img: "./../assets/foto3.png",
         link: "http://lama.dev",
     },
     {
         id: 4,
-        img: "https://i.ibb.co/x6Jgzj5/4.jpg",
+        img: "./../assets/foto4.png",
         link: "http://lama.dev",
     },
     {
         id: 5,
-        img: "https://i.ibb.co/k2j4Zpg/5.jpg",
+        img: "./../assets/foto5.png",
         link: "http://lama.dev",
     },
     {
         id: 6,
-        img: "https://i.ibb.co/k2j4Zpg/6.jpg",
+        img: "./../assets/foto7.png",
         link: "http://lama.dev",
     },
 ]

@@ -6,10 +6,7 @@ const ProductList = () => {
     return (
         <div className="pl">
             <div className="pl-texts">
-                <h1 className="pl-title">Create & inspire. It's Dimon</h1>
-                <p className="pl-desc">
-                Elementum eu facilisis sed odio morbi quis commodo odio. Suspendisse faucibus interdum posuere lorem ipsum dolor. Vulputate dignissim suspendisse in est ante in. Ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus.
-                </p>
+                <h1 className="pl-title">My Works</h1>
             </div>
             <div className="pl-list">
                 {products.map((item) => (

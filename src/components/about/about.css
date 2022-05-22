@@ -78,15 +78,19 @@
     .a {
         flex-direction: column;
         text-align: center;
-        margin-top: 50px;
+        margin-top: 0px;
     }
 
     .a-left {
         width: 100%;
     }
 
+    .a-img {
+        height: 300px;
+    }
+
     .a-card {
-        height: 30vh;
+        height: 50vh;
     }
 
     .a-card.bg, .a-award {
