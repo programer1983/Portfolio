@@ -1,5 +1,4 @@
 import "./about.css"
-import Award from "../../img/award.png"
 import Work from "./../../img/work.jpg"
 
 const About = () => {
@@ -18,20 +17,14 @@ const About = () => {
             <div className="a-right">
                 <h1 className="a-title">About Me</h1>
                 <p className="a-sub">
-                    It is a long established fact that a reader will be 
-                    dreadable content
+                   <p>I have been learning  React, Redux, CSS  from YouTube videos for two years.</p>
+                   <p>I studied documentation and articles on the Internet.</p>
+                   <p>Many problems arose along the way.</p>
+                   <p>I searched for solutions on the Internet on various resources for programmers.</p>
+                   <p>In the process, I acquired new knowledge on React and other areas in programming.</p>
+                   <p>I love solving problems in different ways.</p>
+                   <p>I like talking to people and asking questions that interest me.</p>
                 </p>
-                <p className="a-desc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tristique senectus et netus et. Sagittis id consectetur purus ut faucibus pulvinar elementum integer enim. Felis eget nunc lobortis mattis aliquam. 
-                </p>
-                <div className="a-award">
-                    <div className="a-award-texts">
-                        <h4 className="a-award-title">International Design Awords 2021</h4>
-                        <p className="a-award-desc">
-                        Arcu ac tortor dignissim convallis aenean et. Aliquet bibendum enim facilisis gravida neque.
-                        </p>
-                    </div>
-                </div>
             </div>
         </div>
     )

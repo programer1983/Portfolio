@@ -28,7 +28,9 @@
 .p-img {
     width: 100%;
     transition: all 10s ease;
+    cursor: pointer;
 }
+
 
 .p:hover .p-img {
     transform: translateY(-100%);
@@ -41,3 +43,10 @@
         height: 20vh;
     }  
 }
+
+@media screen and (max-width: 768px) {
+    .p {
+        width: 20%;
+        height: 15vh;
+    }  
+ }

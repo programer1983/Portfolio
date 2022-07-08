@@ -1,7 +1,10 @@
 import "./contact.css"
-import Phone from "./../../img/phone.png"
+import Phone from "./../../img/telefon.png"
 import Email from "./../../img/email.png"
-import Address from "./../../img/address.jpg"
+import Address from "./../../img/location.png"
+import Lincedin from "./../../img/lincedin.png"
+import Facebook from "./../../img/facebook.png"
+import GitHub from "./../../img/git.png"
 import { useRef, useState } from "react"
 import emailjs from 'emailjs-com';
 import { useContext } from "react";
@@ -52,6 +55,24 @@ const Contact = () => {
                             <img src={Address} alt="" className="c-icon"/>
                             Ukraine
                         </div>
+                        <a href="https://www.linkedin.com/in/dmitriy-grabowski-6bb321216/">
+                            <div className="c-info-item">
+                                <img src={Lincedin} alt="" className="c-icon"/>
+                                Lincedin
+                            </div>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100009216974269">
+                            <div className="c-info-item">
+                                <img src={Facebook} alt="" className="c-icon"/>
+                                Facebook
+                            </div>
+                        </a>
+                        <a href="https://github.com/programer1983">
+                            <div className="c-info-item">
+                                <img src={GitHub} alt="" className="c-icon"/>
+                                GitHub
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div className="c-right">

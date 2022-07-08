@@ -47,11 +47,18 @@
 
 .a-title {
     font-weight: 400;
+    font-size: 40px;
+    text-align: center;
 }
 
 .a-sub {
-    margin: 20px 0px;
+    margin: 20px 20px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
 }
+
 
 .a-desc {
     font-weight: 300;
@@ -78,22 +85,10 @@
     .a {
         flex-direction: column;
         text-align: center;
-        margin-top: 0px;
+        margin-top: 50px;
     }
 
     .a-left {
-        width: 100%;
-    }
-
-    .a-img {
-        height: 300px;
-    }
-
-    .a-card {
-        height: 50vh;
-    }
-
-    .a-card.bg, .a-award {
         display: none;
     }
 
@@ -101,3 +96,27 @@
         padding: 20px;
     }
 }
+
+
+@media screen and (max-width: 768px) {
+    .a {
+        height: 70vh;
+    }
+
+    .a-left {
+        display: none;
+    }
+    
+    .a-title {
+        font-size: 30px;
+    }
+
+    .a-sub {
+        margin: 20px 50px;
+        font-size: 20px;
+        line-height: 32px;
+    }
+}
+
+
+

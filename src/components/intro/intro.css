@@ -12,6 +12,7 @@
 
 .i-desc {
     font-size: 35px;
+    margin-top: 30px;
 }
 
 .i-right {
@@ -72,12 +73,13 @@
 }
 
 .i-img {
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
     object-fit: cover;
     position: absolute;
     top: 110px;
     right: 80px;
+    border-radius: 50%;
 }
 
 @media screen and (max-width: 480px) {
@@ -91,26 +93,72 @@
         justify-content: center;
         text-align: center;
         height: 100%;
+        margin-bottom: 70px;
     }
 
-    .i-title {
-        display: none;
-    }
-
-    .i-name {
-        margin-bottom: 80px;
-        font-size: 50px;
-    }
 
     .i-desc {
         display: none;
+    
     }
 
     .i-img {
-        display: none;
-    }
-
-    .i-right {
-        display: none;
+        position: absolute;
+        top: 0px;
+        left: 93px;
+        width: 300px;
+        height: 300px;
     }
 }
+
+@media screen and (max-width: 768px){
+    .i {
+        height: 450px;
+    }
+
+    .i-left-wrapper {
+        height: 70%;
+        margin-top: 80px;
+    }
+
+    .i-title-item {
+        font-size: 20px;
+    }
+
+    
+    .i-desc {
+        margin-top: 10px;
+    }
+
+    .i-left {
+        height: 350px;
+    }
+
+    .i-intro {
+        font-size: 20px;
+    }
+
+    .i-name {
+        font-size: 30px;
+    }
+
+    .i-desc {
+        font-size: 20px;
+    }
+    
+    .i-right {
+        height: 100px;
+    }
+
+    .i-img {
+        width: 230px;
+        height: 230px;
+    } 
+
+    
+}
+
+
+
+
+
