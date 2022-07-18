@@ -81,21 +81,15 @@
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 480px) {
-    .a {
-        flex-direction: column;
-        text-align: center;
-        margin-top: 50px;
-    }
 
-    .a-left {
-        display: none;
-    }
 
-    .a-right {
-        padding: 20px;
+
+@media screen and (max-width: 1200px){
+    .a-sub p {
+        line-height: 30px;
     }
 }
+
 
 
 @media screen and (max-width: 768px) {
@@ -117,6 +111,25 @@
         line-height: 32px;
     }
 }
+
+
+
+@media screen and (max-width: 480px) {
+    .a {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .a-left {
+        display: none;
+    }
+
+    .a-right {
+        padding: 130px 0px;
+    }
+}
+
 
 
 

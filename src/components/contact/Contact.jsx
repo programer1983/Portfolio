@@ -21,7 +21,7 @@ const Contact = () => {
 
         emailjs
         .sendForm(
-            'service_quxgyn8', 
+            'service_58zmuin', 
             'template_neckv1k', 
             formRef.current, 
             'user_RyWBgBRflyUzGSWbQ6rhV'
@@ -41,7 +41,7 @@ const Contact = () => {
             <div className="c-bg"></div>
             <div className="c-wrapper">
                 <div className="c-left">
-                    <h1 className="c-title">Let's discuss your project</h1>
+                    <h1 className="c-title">My Сontacts.</h1>
                     <div className="c-info">
                         <div className="c-info-item">
                             <img src={Phone} alt="" className="c-icon"/>
@@ -55,19 +55,19 @@ const Contact = () => {
                             <img src={Address} alt="" className="c-icon"/>
                             Ukraine
                         </div>
-                        <a href="https://www.linkedin.com/in/dmitriy-grabowski-6bb321216/">
+                        <a href="https://www.linkedin.com/in/dmitriy-g-6bb321216/" style={{color: !darkMode && "black"}}>
                             <div className="c-info-item">
                                 <img src={Lincedin} alt="" className="c-icon"/>
                                 Lincedin
                             </div>
                         </a>
-                        <a href="https://www.facebook.com/profile.php?id=100009216974269">
+                        <a href="https://www.facebook.com/profile.php?id=100009216974269" style={{color: !darkMode && "black"}}>
                             <div className="c-info-item">
                                 <img src={Facebook} alt="" className="c-icon"/>
                                 Facebook
                             </div>
                         </a>
-                        <a href="https://github.com/programer1983">
+                        <a href="https://github.com/programer1983" style={{color: !darkMode && "black"}}>
                             <div className="c-info-item">
                                 <img src={GitHub} alt="" className="c-icon"/>
                                 GitHub
@@ -80,10 +80,10 @@ const Contact = () => {
                         <b>Get in touch.</b> 
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit}>
-                        <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Name" name="user_name" />
-                        <input style={{backgroundColor: darkMode && "#333"}}  type="text" placeholder="Subject" name="user_subject" />
-                        <input style={{backgroundColor: darkMode && "#333"}}  type="text" placeholder="Email" name="user_email" />
-                        <textarea style={{backgroundColor: darkMode && "#333"}} rows="5" placeholder="Message" name="message" />
+                        <input style={{backgroundColor: darkMode &&  "#333", color: darkMode && "white"}} type="text" placeholder="Name" name="user_name" />
+                        <input style={{backgroundColor: darkMode && "#333", color: darkMode && "white"}}  type="text" placeholder="Subject" name="user_subject" />
+                        <input style={{backgroundColor: darkMode && "#333", color: darkMode && "white"}}  type="text" placeholder="Email" name="user_email" />
+                        <textarea style={{backgroundColor: darkMode && "#333", color: darkMode && "white"}} rows="5" placeholder="Message" name="message" />
                         <button>Submit</button>
                         {done && "Thank you..."}
                     </form>
