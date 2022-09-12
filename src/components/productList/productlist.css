@@ -28,6 +28,21 @@
 }
 
 
+@media screen and (max-width: 949px){
+    .pl-title {
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width: 920px){
+    .pl-list {
+        width: 100vw;
+        width: 800px;  
+    }
+}
+
+
 @media screen and (max-width: 768px) {
 
    .pl-title {

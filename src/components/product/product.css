@@ -37,8 +37,11 @@
 
 }
 
-@media screen and (max-width: 480px) {
-   
+@media screen and (max-width: 920px){
+    .p {
+        width: 20%;
+        height: 25vh; 
+    }
 }
 
 @media screen and (max-width: 768px) {

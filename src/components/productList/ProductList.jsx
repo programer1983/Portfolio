@@ -2,6 +2,7 @@ import "./productlist.css"
 import Product from "./../product/Product"
 import { products } from "../../data"
 
+
 const ProductList = () => {
     return (
         <div className="pl">
