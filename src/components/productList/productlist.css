@@ -176,6 +176,12 @@
     }
 }
 
+@media screen and (max-width: 422px){
+    .pl-title {
+        margin-top: 100px;
+    }
+}
+
 @media screen and (max-width: 394px){
     .pl-list {
         width: 140%;

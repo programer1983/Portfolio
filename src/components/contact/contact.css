@@ -258,12 +258,33 @@ button {
 }
 
 
+@media screen and (max-width: 372px) {
+    .c-icon {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+
 @media screen and (max-width: 368px) {
     form {
         width: 180px;
     }
 }
 
+
+@media screen and (max-width: 365px) {
+    .c-info-item {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 353px) {
+    .c-info-item {
+        font-size: 14px;
+    }
+}
 
 @media screen and (max-width: 344px) {
     form {
@@ -272,6 +293,13 @@ button {
     
     textarea {
         width: 150%;
+   }
+}
+
+
+@media screen and (max-width: 340px) {
+   .c-info {
+      width: 250px;
    }
 }
 
@@ -301,30 +329,6 @@ button {
    }
 }
 
-@media screen and (max-width: 372px) {
-    .c-icon {
-        width: 25px;
-        height: 25px;
-    }
-}
-
-@media screen and (max-width: 365px) {
-    .c-info-item {
-        font-size: 15px;
-    }
-}
-
-@media screen and (max-width: 353px) {
-    .c-info-item {
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 340px) {
-   .c-info {
-      width: 250px;
-   }
-}
 
 
 
