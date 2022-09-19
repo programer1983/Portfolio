@@ -81,68 +81,25 @@
     border-radius: 50%;
 }
 
-
-@media screen and (max-width: 1200px){
-    .i-right {
+@media screen and (max-width: 1024px){
+    .i {
+        height: 600px;
+    }
+    
+    .i-left {
         height: 600px;
     }
 
     .i-img {
-        width: 400px;
-        height: 400px;
-    }
-
-    .i-name {
-        font-size: 40px;
-    }
-
-    .i-desc {
-        font-size: 30px;
-    } 
-}
-
-
-@media screen and (max-width: 1045px){
-    .i-intro {
-        font-size: 25px;
-    }
-    
-    .i-img {
         width: 320px;
         height: 320px;
-    }
-    
-    .i-title-item {
-        font-size: 20px;
-    }
-    
-    .i-name {
-        font-size: 35px;
-    }
-
-    .i-desc {
-        font-size: 25px;
-    } 
-}
-
-
-@media screen and (max-width: 949px){
-    .i-img {
-        width: 300px;
-        height: 300px;
-        object-fit: cover;
         position: absolute;
-        top: 80px;
-        right: 90px;
-        border-radius: 50%;
-    }
-
-    .i-left-wrapper {
-        padding: 40px;
+        top: 100px;
+        right: 130px;
     }
 
     .i-intro {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .i-name {
@@ -150,7 +107,7 @@
     }
 
     .i-title-item {
-        font-size: 20px;
+        font-size: 23px;
     }
 
     .i-desc {
@@ -158,281 +115,120 @@
     }
 }
 
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 821px){
     .i {
-        height: 450px;
+       height: 400px;
+    }
+    
+    .i-left {
+        height: 420px;
+    }
+    
+    .i-left-wrapper {
+        height: 230px;
+    }
+    
+    .i-img {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        top: 90px;
+        right: 80px;
     }
 
+    .i-desc {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 713px){
     .i-left-wrapper {
         height: 70%;
-        margin-top: 80px;
     }
 
-    .i-title-item {
-        font-size: 20px;
-    }
-
-    
-    .i-desc {
-        margin-top: 10px;
-    }
-
-    .i-left {
-        height: 350px;
-    }
-
-    .i-intro {
-        font-size: 20px;
-    }
-
-    .i-name {
-        font-size: 30px;
-    }
-
-    .i-desc {
-        font-size: 20px;
-    }
-    
-    .i-right {
-        height: 100px;
-    }
-
-    .i-img {
-        width: 230px;
-        height: 230px;
-    } 
-}
-
-
-@media screen and (max-width: 722px) {
-    .i-left {
-        height: 280px;
-    }
-    .i-name {
-        font-size: 25px;
-    }
-    
     .i-img {
         width: 220px;
         height: 220px;
     }
-
-    .i-desc {
-        font-size: 18px;
-    }
 }
 
-@media screen and (max-width: 629px) {
-    .i-img {
-        width: 180px;
-        height: 180px;
-    }
-
-    .i-left {
-        height: 237px;
-    }
-
-    .i-intro {
-        font-size: 15px;
-    }
-
-    .i-name {
-        font-size: 20px;
-    }
-
-    .i-title-item {
-        font-size: 15px;
-    }
-
-    .i-desc {
-        font-size: 15px;
-    }
-
-}
-
-@media screen and (max-width: 535px) {
-    .i-img {
-        width: 140px;
-        height: 140px;
-    }
-
-    .i-name {
-        font-size: 18px;
-    }
-}
-
-@media screen and (max-width: 531px) {
-    .i-left {
-        height: 220px;
-    }
-    
-    .i-desc {
-        font-size: 14px;
-    }
-
-}
-
-@media screen and (max-width: 508px) {
-    .i-left {
-        height: 270px;
-    } 
-}
-
-@media screen and (max-width: 507px) {
-    .i-left {
-        height: 250px;
-    } 
-}
-
-@media screen and (max-width: 498px) {
-    .i-left {
-        height: 250px;
-    } 
-
-    .i-desc {
-        font-size: 12px;
-    }
-}
-
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 415px){
     .i {
+        display: flex;
         flex-direction: column;
     }
 
     .i-left-wrapper {
-        padding: 10px;
+        display: flex;
         align-items: center;
-        justify-content: center;
-        text-align: center;
-        height: 100%;
     }
-
-    .i-img {
-        position: absolute;
-        top: 20px;
-        left: 135px;
-        width: 210px;
-        height: 210px;
-    }
-
+    
     .i-desc {
         display: none;
     }
-   
-    .i-intro {
-      font-size: 22px;
-   }
 
-   .i-name {
-       font-size: 25px;
-   }
-
-   .i-title-item {
-       font-size: 20px;
-   }
-}
-
-@media screen and (max-width: 457px) {
     .i-img {
         position: absolute;
-        top: 20px;
-        left: 130px;
-        width: 210px;
-        height: 210px;
+        top: 12px;
+        left: 95px;
     }
 }
 
-@media screen and (max-width: 438px) {
+@media screen and (max-width: 391px){
     .i-img {
         position: absolute;
-        top: 20px;
-        left: 110px;
-        width: 210px;
-        height: 210px;
-    }
-}
-
-@media screen and (max-width: 405px) {
-    .i-img {
-        position: absolute;
-        top: 20px;
-        left: 100px;
-        width: 210px;
-        height: 210px;
-    }
-}
-
-@media screen and (max-width: 384px) {
-    .i-img {
-        position: absolute;
-        top: 20px;
+        top: 12px;
         left: 85px;
-        width: 210px;
-        height: 210px;
     }
 }
 
-@media screen and (max-width: 357px) {
-    .i-img {
-        position: absolute;
-        top: 20px;
-        left: 75px;
-        width: 210px;
-        height: 210px;
-    }
-}
-
-@media screen and (max-width: 342px) {
-    .i-img {
-        position: absolute;
-        top: 20px;
-        left: 65px;
-        width: 210px;
-        height: 210px;
-    }
-}
-
-@media screen and (max-width: 323px) {
-    .i-img {
-        position: absolute;
-        top: 20px;
-        left: 55px;
-        width: 210px;
-        height: 210px;
-    }
-}
-
-@media screen and (max-width: 304px) {
-    .i-img {
-        position: absolute;
-        top: 20px;
-        left: 45px;
-        width: 210px;
-        height: 210px;
-    }
-}
-
-@media screen and (max-width: 284px) {
-    .i-intro {
-        font-size: 15px;
+@media screen and (max-width: 376px){
+    .i-left-wrapper {
+        display: flex;
+        align-items: center;
     }
 
     .i-name {
-        font-size: 20px;
+        font-size: 27px;
     }
-    
+
     .i-img {
         position: absolute;
-        top: 20px;
-        left: 50px;
-        width: 180px;
-        height: 180px;
+        top: 9px;
+        left: 77px;
     }
 }
 
+@media screen and (max-width: 361px){
+    .i-img {
+        position: absolute;
+        top: 9px;
+        left: 68px;
+    }
+}
 
+@media screen and (max-width: 321px){
+    .i-left-wrapper {
+        display: flex;
+        align-items: center;
+    }
 
+    .i-name {
+        font-size: 23px;
+    }
 
+    .i-img {
+        position: absolute;
+        top: 9px;
+        left: 51px;
+    }
 
+    .i-intro {
+        font-size: 20px;
+    }
+
+    .i-title-item {
+        font-size: 20px;
+    }
+}
 

@@ -96,247 +96,96 @@ button {
 }
 
 
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .c {
         height: 100%;
     }
-
-    .c-title {
-        font-size: 20px;
-    }
-
-    .c-right {
-        height: 100%;
-    }
-
-    .c-desc {
-        font-size: 20px;
-        margin-bottom: none;
-    }
-
-    input {
-        height: 35px;
-        width: 50%;
-    }
-
-    textarea {
-        width: 300px;
-    }
-
-    .c-left {
-        height: 100%;
-    }
-
-    .c-info-item {
-        margin: 30px 0;
+    
+    form {
+       translate: calc(100vw - 1050px);
     }
 }
 
-@media screen and (max-width: 686px) {
-    .c-info-item {
-        font-size: 15px;
+@media screen and (max-width: 821px){
+    form {
+        translate: calc(100vw - 820px);
     }
 }
 
-@media screen and (max-width: 674px) {
-    .c-info-item {
-        font-size: 14px;
+@media screen and (max-width: 769px){
+    form {
+        translate: calc(100vw - 780px);
     }
 }
 
-@media screen and (max-width: 6614px) {
-    .c-info-item {
-        font-size: 13px;
+@media screen and (max-width: 713px){
+    form {
+        translate: calc(100vw - 710px);
     }
 }
 
-@media screen and (max-width: 664px) {
-    .c-info-item {
-        font-size: 12px;
-    }
-
-    .c-icon {
-        width: 23px;
-        height: 23px;
-    }
-}
-
-@media screen and (max-width: 626px) {
-    .c-right {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 584px) {
+@media screen and (max-width: 415px){
     .c-wrapper{
         display: flex;
         flex-direction: column;
         padding-top: 10px;
-   } 
-
-   .c-info {
-     display: grid;
-     grid-template-columns: 2fr 1fr;
-     margin-top: 30px;
-   }
-
-    .c-info-item {
-        margin: 15px 0px;
     }
 
+    .c-left {
+        margin-bottom: 50px;
+    }
+
+    form {
+        translate: calc(100vw - 410px);
+    }
+}
+
+
+@media screen and (max-width: 376px){
     .c-title {
-        text-align: center;
-        width: auto;
+        font-size: 25px;
     }
 
     form {
-        width: 50px;
-    }
-
-    input {
-        width: 30vw;
-    }
-
-    .c-desc {
-        margin-top: 100px;
-        margin-left: auto;
-        margin-bottom: 30px;
+        translate: calc(100vw - 380px);
     }
 }
 
-@media screen and (max-width: 539px) {
-    .c-desc {
-        margin-left: auto;
+@media screen and (max-width: 391px){
+    form {
+        translate: calc(100vw - 390px);
     }
 }
 
-@media screen and (max-width: 506px) {
+@media screen and (max-width: 361px){
     .c-info {
-        display: grid;
-        grid-template-columns: 2fr 160px;
-    }
-
-    .c-desc {
-        margin-left: auto;
-    }
-}
-
-
-@media screen and (max-width: 480px) {
-    .c-info {
-        display: flex;
-        flex-direction: column;
-    }
-   
-    .c-icon {
-        width: 30px;
-        height: 30px;
+        translate: calc(100vw - 370px); 
     }
 
     .c-info-item {
-        font-size: 16px;
+        width: 100%;
     }
 
     form {
-        width: 100px;
+        translate: calc(100vw - 370px);
     }
 }
 
-
-@media screen and (max-width: 446px) {
-    form {
-        width: 140px;
-    }
-}
-
-
-@media screen and (max-width: 405px) {
-    form {
-        width: 160px;
-    }
-}
-
-
-@media screen and (max-width: 372px) {
-    .c-icon {
-        width: 25px;
-        height: 25px;
-    }
-}
-
-
-
-@media screen and (max-width: 368px) {
-    form {
-        width: 180px;
-    }
-}
-
-
-@media screen and (max-width: 365px) {
-    .c-info-item {
-        font-size: 15px;
-    }
-}
-
-@media screen and (max-width: 353px) {
-    .c-info-item {
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 344px) {
-    form {
-        margin-left: 10px;
+@media screen and (max-width: 321px){
+    .c-title {
+        font-size: 22px;
     }
     
-    textarea {
-        width: 150%;
-   }
-}
-
-
-@media screen and (max-width: 340px) {
-   .c-info {
-      width: 250px;
-   }
-}
-
-@media screen and (max-width: 338px) {
-    form {
-        margin-left: 20px;
-    }
-    
-    textarea {
-        width: 130%;
-   }
-}
-
-@media screen and (max-width: 310px) {
-    form {
-        margin-left: 30px;
-    }
-}
-
-@media screen and (max-width: 295px) {
-    form {
-        margin-left: 40px;
+    .c-info {
+        translate: calc(100vw - 335px); 
     }
 
-    textarea {
-        width: 115%;
-   }
+    .c-info-item {
+        width: 100%;
+    }
+
+    form {
+        translate: calc(100vw - 335px);
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
 
