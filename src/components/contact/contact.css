@@ -109,6 +109,25 @@ button {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .c-title {
+        font-size: 20px;
+        margin-top: 11px;
+    }
+
+    b {
+        font-size: 20px;
+    }
+
+    .c-wrapper {
+        padding-top: 5px;
+    }
+    
+    form {
+        height: 100%;
+    }
+}
+
 
 
 

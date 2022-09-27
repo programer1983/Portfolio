@@ -109,3 +109,22 @@
         font-size: 15px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .a {
+        height: 40vh;
+    }
+    
+    .a-left {
+        display: none;
+    }
+
+    .a-title {
+        font-size: 24px;
+    }
+
+    .a-sub {
+        width: 70%;
+        margin-left: 130px;
+    }
+}
