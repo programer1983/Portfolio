@@ -95,97 +95,20 @@ button {
     cursor: pointer;
 }
 
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px){
     .c {
-        height: 100%;
-    }
-    
-    form {
-       translate: calc(100vw - 1050px);
-    }
-}
-
-@media screen and (max-width: 821px){
-    form {
-        translate: calc(100vw - 820px);
-    }
-}
-
-@media screen and (max-width: 769px){
-    form {
-        translate: calc(100vw - 780px);
-    }
-}
-
-@media screen and (max-width: 713px){
-    form {
-        translate: calc(100vw - 710px);
-    }
-}
-
-@media screen and (max-width: 415px){
-    .c-wrapper{
-        display: flex;
-        flex-direction: column;
-        padding-top: 10px;
+        height: 150%;
     }
 
-    .c-left {
-        margin-bottom: 50px;
-    }
-
-    form {
-        translate: calc(100vw - 410px);
-    }
-}
-
-
-@media screen and (max-width: 376px){
     .c-title {
         font-size: 25px;
     }
 
-    form {
-        translate: calc(100vw - 380px);
+    b {
+        font-size: 25px;
     }
 }
 
-@media screen and (max-width: 391px){
-    form {
-        translate: calc(100vw - 390px);
-    }
-}
 
-@media screen and (max-width: 361px){
-    .c-info {
-        translate: calc(100vw - 370px); 
-    }
 
-    .c-info-item {
-        width: 100%;
-    }
-
-    form {
-        translate: calc(100vw - 370px);
-    }
-}
-
-@media screen and (max-width: 321px){
-    .c-title {
-        font-size: 22px;
-    }
-    
-    .c-info {
-        translate: calc(100vw - 335px); 
-    }
-
-    .c-info-item {
-        width: 100%;
-    }
-
-    form {
-        translate: calc(100vw - 335px);
-    }
-}
 
