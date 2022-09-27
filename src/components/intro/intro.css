@@ -143,7 +143,6 @@
 
 
 @media screen and (max-width: 768px) {
-    
     .i-img {
         width: 250px;
         height: 250px;
@@ -171,5 +170,38 @@
 
     .i-name {
         font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .i {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .i-left-wrapper {
+        display: flex;
+        align-items: center;
+        height: 50%;
+    }
+
+    .i-name {
+        font-size: 30px;
+    }
+
+    .i-intro {
+        font-size: 20px;
+    }
+    
+    .i-img {
+        width: 270px;
+        height: 270px;
+        position: absolute;
+        top: 20px;
+        left: 153px;
+    }
+
+    .i-desc {
+        display: none;
     }
 }

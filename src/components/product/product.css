@@ -58,4 +58,11 @@
      }
 }
 
+@media screen and (max-width: 576px) {
+    .p {
+        width: 90%;
+        height: 44vh;
+     }
+}
+
 
