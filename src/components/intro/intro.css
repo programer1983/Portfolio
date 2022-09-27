@@ -112,6 +112,31 @@
         font-size: 22px;
         width: 60%;
     }
+}
 
-    
+@media screen and (max-width: 992px) {
+    .i-img {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        right: 80px;
+    }
+
+     .i-intro {
+        font-size: 20px;
+    }
+
+    .i-left-wrapper {
+        height: 45%;
+    }
+
+    .i-name {
+        font-size: 30px;
+    }
+
+    .i-desc {
+        font-size: 20px;
+        width: 70%;
+    } 
+
 }

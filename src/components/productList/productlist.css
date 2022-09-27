@@ -42,3 +42,9 @@
         width: 80%;
     }
 }
+
+@media screen and (max-width: 992px) {
+    .pl-list {
+        width: 70%;
+    }
+}
