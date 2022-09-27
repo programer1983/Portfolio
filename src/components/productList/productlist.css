@@ -71,3 +71,14 @@
         font-size: 30px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .pl-title {
+        margin-top: 190px;
+        font-size: 23px;
+    }
+
+    .pl-list {
+        width: 150%;
+    }
+}

@@ -148,6 +148,12 @@ button {
     }
 }
 
+@media screen and (max-width: 375px) {
+    .c-title {
+        font-size: 27px;
+    }
+}
+
 
 
 

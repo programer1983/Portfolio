@@ -205,3 +205,17 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .i-name {
+        font-size: 25px;
+    }
+
+    .i-img {
+        width: 220px;
+        height: 220px;
+        position: absolute;
+        top: 9px;
+        left: 80px;
+    }
+}

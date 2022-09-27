@@ -142,3 +142,13 @@
         font-size: 30px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .a-sub {
+        margin-left: 63px;
+    }
+
+    .a-title {
+        margin-top: 50px;
+    }
+}

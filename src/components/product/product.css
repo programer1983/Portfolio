@@ -65,4 +65,11 @@
      }
 }
 
+@media screen and (max-width: 375px) {
+    .p {
+        width: 250px;
+        height: 35vh;
+     }
+}
+
 
