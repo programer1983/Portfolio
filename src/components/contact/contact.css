@@ -100,6 +100,10 @@ button {
         height: 150%;
     }
 
+    .c-left {
+        margin-top: 5px;
+    }
+
     .c-title {
         font-size: 25px;
     }
@@ -109,51 +113,35 @@ button {
     }
 }
 
-@media screen and (max-width: 768px) {
-    .c-title {
-        font-size: 20px;
-        margin-top: 11px;
-    }
-
-    b {
-        font-size: 20px;
-    }
-
-    .c-wrapper {
-        padding-top: 5px;
-    }
-    
-    form {
-        height: 100%;
+@media screen and (max-width: 821px) {
+    .c-left {
+        margin-top: 5px;
     }
 }
 
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 415px) {
     .c-wrapper {
         display: flex;
         flex-direction: column;
     }
 
-    .c-title {
-        font-size: 30px;
-        margin-top: 0px;
-    }
-
     .c-info {
-        margin-bottom: 100px;
-    }
-
-    b {
-        font-size: 30px;
+        margin-bottom: 80px;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
+    .c-wrapper {
+        padding-top: 5px;
+    }
+}
+
+@media screen and (max-width: 321px) {
     .c-title {
-        font-size: 27px;
+        width: 100%;
     }
 }
-
 
 
 

@@ -83,7 +83,7 @@
 
 @media screen and (max-width: 1200px) {
     .a {
-        margin-top: 100px;
+        margin-top: 150px;
     }
 
     .a-left {
@@ -95,7 +95,7 @@
     }
 
     .a-sub {
-        line-height: 28px;
+        line-height: 27px;
     }
 
     .a-sub p {
@@ -104,51 +104,102 @@
     }
 }
 
-@media screen and (max-width: 992px) {
-    .a-sub p {
-        font-size: 15px;
+@media screen and (max-width: 1024px) {
+    .a {
+        height: 10vh;
+        margin-top: 500px;
+    }
+    
+    .a-right {
+        height: 70vh;
+        margin-top: 50px;
+    }
+    
+    .a-img {
+        height: 40%;
+        margin-top: 40px;
+    }
+
+    .a-card.bg {
+        display: none;
+    }
+
+    .a-sub {
+        line-height: 30px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 821px) {
+    .a-left {
+        display: none;
+    }
+
+    .a-sub {
+        width: 73%;
+        margin-left: 125px;
+        margin-top: 50px;
+    }
+
+    .a-title {
+        font-weight: 600;
     }
 }
 
 @media screen and (max-width: 768px) {
     .a {
-        height: 40vh;
-    }
-    
-    .a-left {
-        display: none;
-    }
-
-    .a-title {
-        font-size: 24px;
-    }
-
-    .a-sub {
-        width: 70%;
-        margin-left: 130px;
+        padding-bottom: 70px;
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 713px) {
     .a {
-        margin-top: 250px;
+        padding-top: 60px;
+        padding-bottom: 20px;
     }
 
     .a-sub {
         margin-left: 100px;
     }
-
-    .a-title {
-        font-size: 30px;
-    }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 415px) {
+    .a-title {
+        margin-top: 70px;
+    }
+
     .a-sub {
-        margin-left: 63px;
-    }
-
-    .a-title {
-        margin-top: 50px;
+        margin-left: 67px;
     }
 }
+
+@media screen and (max-width: 376px) {
+    .a-title {
+        margin-top: 10px;
+    }
+
+    .a-sub {
+        margin-left: 58px;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    .a-title {
+        margin-top: 3px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .a-title {
+        margin-top: 3px;
+    }
+    
+    .a-sub {
+        margin-left: 47px;
+    }
+}
+
+
+
+
+

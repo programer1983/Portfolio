@@ -40,35 +40,60 @@
 @media screen and (max-width: 1200px){
   .p {
      width: 30%;
-     height: 37vh;
+     height: 40vh;
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
+    .p {
+        width: 29%;
+        height: 10vh;
+     }
+}
+
+@media screen and (max-width: 821px) {
     .p {
         width: 28%;
-        height: 26vh;
+        height: 8vh;
      }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 713px) {
     .p {
         width: 27%;
-        height: 20vh;
+        height: 8vh;
      }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 415px) {
     .p {
-        width: 90%;
-        height: 44vh;
+        width: 115%;
+        height: 23vh;
      }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 391px) {
     .p {
-        width: 250px;
-        height: 35vh;
+        height: 23vh;
+     }
+}
+
+@media screen and (max-width: 376px) {
+    .p {
+        width: 200%;
+        height: 24vh;
+     }
+}
+
+@media screen and (max-width: 361px) {
+    .p {
+        height: 29vh;
+     }
+}
+
+@media screen and (max-width: 321px) {
+    .p {
+        height: 25vh;
      }
 }
 
